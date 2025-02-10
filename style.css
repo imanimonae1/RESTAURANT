@@ -3,7 +3,8 @@
     
     .main{width:70%;
     margin:0 auto;
-    background:lightblue;
+    background:#334d68
+    ;
     }
     
     nav{display:flex;
