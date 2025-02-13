@@ -1,5 +1,7 @@
-*{border:1px lightblue solid;
-    margin:1px;}
+
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+
+    .margin{1px;}
     
     .main{width:70%;
     margin:0 auto;
@@ -10,11 +12,22 @@
     nav{display:flex;
     justify-content:space-around;
     width:100%;
+    font-family: "Mouse Memoirs", serif;
+text-decoration: none;
+color: aliceblue;
     }
-    
+
+
     .splash{width:100%;}
     
-    p{font-size:2vw;}
+    p{font-size:2vw;
+        font-family: "Mouse Memoirs", serif;
+        font-weight: 100;
+        color: aliceblue;
+    }
+
+    
+
     
     .products{display:flex;
     justify-content:space-around;
@@ -42,6 +55,11 @@
     .overlap{
          position: relative;
      z-index:1;
-     top:-100px;
+     top:-200px;
      right:-50px;
+     font-size: 40px;
     }
+
+    nav:hover {
+        text-decoration: underline;
+      }
