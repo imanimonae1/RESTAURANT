@@ -5,7 +5,8 @@
     
     .main{width:70%;
     margin:0 auto;
-    background:#334d68
+    /* background:#334d68; */
+    background:#f3f4f5;
     ;
     }
     
@@ -20,6 +21,7 @@ text-decoration: none;
 nav{display: flex;
     justify-content: space-around;
 width:100%;
+  background:#334d68;
 }
 
 
@@ -28,8 +30,11 @@ width:100%;
     p{font-size:2vw;
         font-family: "Mouse Memoirs", serif;
         font-weight: 100;
-        color: aliceblue;
+        font-size: 30px;
+        color: #334d68;
     }
+        
+    
 
     
 
@@ -70,3 +75,8 @@ width:100%;
       }
 
     body{background-color: rgb(221, 153, 26);}
+
+
+
+    .x{ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:1.5vw}
