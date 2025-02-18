@@ -65,9 +65,11 @@ width:100%;
     .overlap{
          position: relative;
      z-index:1;
-     top:-400px;
+     top:-30vw;
      right:-50px;
      font-size: 70px;
+     color: aliceblue;
+
     }
 
     nav:hover {
